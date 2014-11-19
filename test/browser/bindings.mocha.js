@@ -1,7 +1,7 @@
 var expect = require('expect.js');
 var DerbyStandalone = require('../../lib/DerbyStandalone');
 var derby = new DerbyStandalone();
-require('derby-parsing');
+require('k-parsing');
 
 describe('bindings', function() {
   it('each on path', function() {
