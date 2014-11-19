@@ -1,7 +1,7 @@
 {
   "name": "k-client",
   "description": "MVC framework making it easy to write realtime, collaborative applications that run in both Node.js and browsers.",
-  "version": "0.6.0-alpha28",
+  "version": "0.6.0-alpha28.1",
   "homepage": "http://derbyjs.com/",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "k-templates": "^0.1.13",
     "k-html-util": "~0.2.1",
     "k-tracks": "^0.5.0",
-    "k-model": "0.6.0-alpha24",
+    "k-model": "0.6.0-alpha24.1",
     "chokidar": "~0.8.1",
     "through": "~2.3.4",
     "resolve": "^0.6.3"
