@@ -1,22 +1,22 @@
 {
-  "name": "derby",
+  "name": "k-client",
   "description": "MVC framework making it easy to write realtime, collaborative applications that run in both Node.js and browsers.",
   "version": "0.6.0-alpha28",
   "homepage": "http://derbyjs.com/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/codeparty/derby.git"
+    "url": "git://github.com/kantele/k-client.git"
   },
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/all/*.mocha.js; ./node_modules/.bin/jshint lib/*.js test/*.js"
   },
   "dependencies": {
-    "derby-parsing": "^0.2.2",
-    "derby-templates": "^0.1.13",
-    "html-util": "~0.2.1",
-    "tracks": "^0.5.0",
-    "racer": "0.6.0-alpha24",
+    "k-parsing": "^0.2.2",
+    "k-templates": "^0.1.13",
+    "k-html-util": "~0.2.1",
+    "k-tracks": "^0.5.0",
+    "k-model": "0.6.0-alpha24",
     "chokidar": "~0.8.1",
     "through": "~2.3.4",
     "resolve": "^0.6.3"
