@@ -12,11 +12,11 @@
     "test": "./node_modules/.bin/mocha test/all/*.mocha.js; ./node_modules/.bin/jshint lib/*.js test/*.js"
   },
   "dependencies": {
-    "k-parsing": "^0.2.2",
-    "k-templates": "^0.1.13",
-    "k-html-util": "~0.2.1",
-    "k-tracks": "^0.5",
-    "k-model": "0.6.0-alpha24.4",
+    "k-parsing": "*",
+    "k-templates": "*",
+    "k-html-util": "*",
+    "k-tracks": "*",
+    "k-model": "*",
     "chokidar": "~0.8.1",
     "through": "~2.3.4",
     "resolve": "^0.6.3"
