@@ -12,36 +12,31 @@
     "test": "./node_modules/.bin/mocha test/all/*.mocha.js; ./node_modules/.bin/jshint lib/*.js test/*.js"
   },
   "dependencies": {
+    "chokidar": "^1.2.0",
     "k-parsing": "*",
     "k-templates": "*",
     "k-html-util": "*",
     "k-tracks": "*",
     "k-model": "*",
-    "chokidar": "^0.12.6",
+    "resolve": "^1.1.6",
     "through": "^2.3.4",
     "resolve": "^0.6.3",
     "useragent": "*"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "jshint": "^2.5.10",
-    "mocha": "^2.0.1",
-    "browserify": "^6.3.2"
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.3",
+    "browserify": "^11.2.0"
   },
   "optionalDependencies": {},
-  "engines": {},
-  "testling": {
-    "harness": "mocha-bdd",
-    "files": "test/*/*.mocha.js",
-    "browsers": [
-      "ie/9..latest",
-      "chrome/latest",
-      "firefox/latest",
-      "opera/latest",
-      "safari/latest",
-      "iphone/6..latest",
-      "ipad/6..latest",
-      "android-browser/latest"
-    ]
-  }
+  "bugs": {
+    "url": "https://github.com/kantele/k-client/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "author": "Nate Smith",
+  "license": "MIT"
 }
